@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="800.0" style="-fx-background-color: rgba(0, 0, 0, 0.5); -fx-background-radius: 15;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spool.controller.QuestionController">
+   <children>
+      <Label layoutX="349.0" layoutY="14.0" text="Questions" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDuration" layoutX="141.0" layoutY="57.0" text="21:09" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="57.0" text="Game Time :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="571.0" layoutY="57.0" text="Questions For" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuestionFor" layoutX="660.0" layoutY="57.0" text="30th" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="692.0" layoutY="57.0" text="Min" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="109.0" text="1." textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="179.0" text="2." textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="254.0" text="3." textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="369.0" text="4." textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuestion1" layoutX="75.0" layoutY="109.0" text="Question - 1" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuestion3" layoutX="75.0" layoutY="254.0" text="Question - 3" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuestion2" layoutX="75.0" layoutY="179.0" text="Question - 2" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuestion4" layoutX="75.0" layoutY="369.0" text="Question - 4" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="rdbAnswer1_1" layoutX="96.0" layoutY="141.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer1_2" layoutX="282.0" layoutY="141.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer2_2" layoutX="282.0" layoutY="215.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer2_1" layoutX="96.0" layoutY="215.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <TextField fx:id="txtBid1" layoutX="660.0" layoutY="106.0" prefHeight="25.0" prefWidth="62.0" />
+      <Label layoutX="626.0" layoutY="109.0" text="Bid :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="626.0" layoutY="179.0" text="Bid :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtBid2" layoutX="660.0" layoutY="176.0" prefHeight="25.0" prefWidth="62.0" />
+      <Label layoutX="626.0" layoutY="254.0" text="Bid :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtBid3" layoutX="660.0" layoutY="251.0" prefHeight="25.0" prefWidth="62.0" />
+      <Label layoutX="626.0" layoutY="369.0" text="Bid :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtBid4" layoutX="660.0" layoutY="366.0" prefHeight="25.0" prefWidth="62.0" />
+      <RadioButton fx:id="rdbAnswer3_1" layoutX="96.0" layoutY="287.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer3_2" layoutX="225.0" layoutY="287.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer3_4" layoutX="477.0" layoutY="287.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer3_3" layoutX="349.0" layoutY="287.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer3_5" layoutX="603.0" layoutY="287.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer3_10" layoutX="603.0" layoutY="324.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer3_8" layoutX="349.0" layoutY="324.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer3_9" layoutX="477.0" layoutY="324.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer3_7" layoutX="225.0" layoutY="324.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer3_6" layoutX="96.0" layoutY="324.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer4_6" layoutX="96.0" layoutY="439.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer4_7" layoutX="225.0" layoutY="439.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer4_9" layoutX="477.0" layoutY="439.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer4_8" layoutX="349.0" layoutY="439.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer4_10" layoutX="603.0" layoutY="439.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer4_5" layoutX="603.0" layoutY="402.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer4_3" layoutX="349.0" layoutY="402.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer4_4" layoutX="477.0" layoutY="402.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer4_2" layoutX="225.0" layoutY="402.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdbAnswer4_1" layoutX="96.0" layoutY="402.0" mnemonicParsing="false" text="RadioButton" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <Button fx:id="btnSave" layoutX="338.0" layoutY="509.0" mnemonicParsing="false" text="Save" />
+      <Button fx:id="btnRefresh" layoutX="408.0" layoutY="509.0" mnemonicParsing="false" text="Refresh" />
+      <Label fx:id="lblMessage" alignment="CENTER" contentDisplay="CENTER" layoutY="484.0" prefHeight="19.0" prefWidth="800.0" text="Save button will be disabled in 15 Seconds" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="loadingPane" prefHeight="550.0" prefWidth="800.0" style="-fx-background-color: rgba(0, 0, 0, 1); -fx-background-radius: 15;" visible="false">
+         <children>
+            <ProgressIndicator layoutX="299.0" layoutY="196.0" prefHeight="159.0" prefWidth="177.0" />
+         </children></AnchorPane>
+      <AnchorPane fx:id="informationPane" prefHeight="550.0" prefWidth="800.0" style="-fx-background-color: rgba(0, 0, 0, 1); -fx-background-radius: 15;" visible="false">
+         <children>
+            <AnchorPane layoutX="208.0" layoutY="205.0" prefHeight="140.0" prefWidth="384.0" style="-fx-background-color: rgba(255, 255, 255, 0.6); -fx-background-radius: 20; -fx-effect: dropshadow(three-pass-box, rgba(255,255,255,0.8), 20, 0, 0, 0);">
+               <children>
+                  <Label fx:id="lblInformation" layoutX="28.0" layoutY="14.0" prefHeight="73.0" prefWidth="328.0" text="" wrapText="true">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnMessageOK" layoutX="176.0" layoutY="101.0" mnemonicParsing="false" text="OK" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="14.0" layoutY="503.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/golden-logo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblCoins" layoutX="111.0" layoutY="512.0" text="1000" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="512.0" text="o2coins:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="688.0" layoutY="512.0" text="o2esports" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="756.0" layoutY="503.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
